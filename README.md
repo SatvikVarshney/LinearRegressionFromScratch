@@ -53,5 +53,14 @@ Hyperparameters for the gradient descent method are specified in `.json` files. 
 ### Installation
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/<your-username>/SimpleLinearRegression.git
+git clone https://github.com/SatvikVarshney/LinearRegressionFromScratch.git
+```
+After cloning, navigate to the project directory:
+```bash
+cd LinearRegressionFromScratch
+```
+Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
