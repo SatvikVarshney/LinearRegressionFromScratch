@@ -21,11 +21,13 @@ This project uses synthetic datasets provided in `.in` files for training the li
 A line consists of space-separated real numbers, where the last number is the target variable (y) and the preceding numbers are the feature variables (x1, x2, ..., xM).
 
 ### Example:
-14 20 69
-16 3 -1
-24 30 99
-11 62 240
-30 -4 -43
+| x1 | x2 |  y  |
+|----|----|-----|
+| 14 | 20 |  69 |
+| 16 |  3 |  -1 |
+| 24 | 30 |  99 |
+| 11 | 62 | 240 |
+| 30 | -4 | -43 |
 
 In this example, each line represents a data point with two features and one target variable.
 
