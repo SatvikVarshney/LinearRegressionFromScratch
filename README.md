@@ -15,11 +15,6 @@ The primary goal is to compare the effectiveness of different strategies on synt
 - Python 3.x
 - numpy
 
-### Installation
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/<your-username>/SimpleLinearRegression.git
-
 ## Data Files
 
 This project uses synthetic datasets provided in `.in` files for training the linear regression models. Each `.in` file contains multiple lines, each representing a data point.
@@ -50,4 +45,9 @@ Hyperparameters for the gradient descent method are specified in `.json` files. 
 	"learning rate": 0.01,
 	"num iter": 1000
 }
+
+### Installation
+Clone this repository to your local machine:
+```bash
+git clone https://github.com/<your-username>/SimpleLinearRegression.git
 
