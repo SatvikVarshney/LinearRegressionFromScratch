@@ -39,13 +39,15 @@ Hyperparameters for the gradient descent method are specified in `.json` files. 
 	"learning rate": 0.0001,
 	"num iter": 1000
 }
-
+```
 #### 2.json Example:
+```json
+
 {
 	"learning rate": 0.01,
 	"num iter": 1000
 }
-
+```
 ### Installation
 Clone this repository to your local machine:
 ```bash
