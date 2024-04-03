@@ -13,7 +13,7 @@ import sys
 class DataProcessor:
     def __init__(self, inputFile: str, configFile: str):
         # Define the output file name based on input file
-        self.outputFile = "data/" + inputFile.split('/')[-1].replace('in', 'out')
+        self.outputFile = "Data/" + inputFile.split('/')[-1].replace('in', 'out')
         # Load the dataset and split into features (X) and target variable (y)
         self.data = loadtxt(inputFile, delimiter=" ")
         self.dimensions = self.data.shape
@@ -52,8 +52,8 @@ if __name__ == "__main__":
         configJsonFile = sys.argv[2]
     else:
         # Default filenames if not provided
-        inputDataFile = "data/1.in"
-        configJsonFile = "data/1.json"
+        inputDataFile = "Data/1.in"
+        configJsonFile = "Data/1.json"
 
     processor = DataProcessor(inputDataFile, configJsonFile)
     model = LinearModel()
